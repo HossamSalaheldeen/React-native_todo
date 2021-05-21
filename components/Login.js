@@ -27,7 +27,7 @@ export default class Login extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <TextInput
           value={this.state.email}
           onChangeText={(email) => this.setState({ email })}
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ecf0f1',
   },
   input: {
-    width: 200,
+    width: 300,
     height: 44,
     padding: 10,
     borderWidth: 1,
